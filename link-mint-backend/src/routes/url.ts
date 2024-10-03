@@ -4,7 +4,7 @@ import shortid from 'shortid';
 import Url from "../models/Url";
 
 const router = Router();
-const baseUrl = 'https://link-mint-go4p.vercel.app/';
+const baseUrl = 'https://link-mint-maki.vercel.app';
 
 
 
