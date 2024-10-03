@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node src/index.ts",
+    "start": "ts-node api/index.ts",
     "dev": "nodemon src/index.ts",
     "build": "tsc"
   },
@@ -15,6 +15,7 @@
   "dependencies": {
     "@types/shortid": "^0.0.32",
     "@types/valid-url": "^1.0.7",
+    "@vercel/node": "^3.2.17",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
